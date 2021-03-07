@@ -1,43 +1,44 @@
-# Assignment 1
+# Assignment 4
+
+## Lex
 
 ### File structue 
 
 ```sh
 .
 ├── README.md
-├── hw1-oop-2020f.pdf
+├── hw4-oop-2020f.pdf
 └── src
-    ├── c
-    │   ├── main.c
-    │   ├── main2.c
-    │   ├── makefile
-    │   ├── stack.c
-    │   └── stack.h
-    └── c++
-        ├── main.cpp
-        ├── main2.cpp
-        ├── makefile
-        ├── stack.cpp
-        └── stack.h
+    ├── lib
+    │   ├── Lexer.cpp
+    │   ├── Lexer.h
+    │   ├── Num.cpp
+    │   ├── Num.h
+    │   ├── Real.cpp
+    │   ├── Real.h
+    │   ├── Tag.cpp
+    │   ├── Tag.h
+    │   ├── Token.cpp
+    │   ├── Token.h
+    │   ├── Type.cpp
+    │   ├── Type.h
+    │   ├── Word.cpp
+    │   └── Word.h
+    ├── makefile
+    ├── scanner.cpp
+    └── test
+        ├── test1.cpp
+        └── test2.cpp
 ```
 
 ### Instructions
-[hw1-oop-2020f.pdf](hw1-oop-2020f.pdf)
+[hw4-oop-2020f.pdf](hw4-oop-2020f.pdf)
 
 ### Build and run
-#### c
 ```sh
-cd src/c
+cd src
 make
-./main
-./main2
-make clean
-```
-#### c++
-```sh
-cd src/c++
-make
-./main
-./main2
+./scanner test/test1.cpp
+./scanner test/test2.cpp
 make clean
 ```

@@ -1,43 +1,27 @@
-# Assignment 1
+# Assignment 3
+
+## C++ Class
 
 ### File structue 
 
 ```sh
 .
 ├── README.md
-├── hw1-oop-2020f.pdf
+├── hw3-oop-2020f.pdf
 └── src
-    ├── c
-    │   ├── main.c
-    │   ├── main2.c
-    │   ├── makefile
-    │   ├── stack.c
-    │   └── stack.h
-    └── c++
-        ├── main.cpp
-        ├── main2.cpp
-        ├── makefile
-        ├── stack.cpp
-        └── stack.h
+    ├── Complex.cpp
+    ├── Complex.h
+    ├── main.cpp
+    └── makefile
 ```
 
 ### Instructions
-[hw1-oop-2020f.pdf](hw1-oop-2020f.pdf)
+[hw3-oop-2020f.pdf](hw3-oop-2020f.pdf)
 
 ### Build and run
-#### c
 ```sh
-cd src/c
+cd src
 make
 ./main
-./main2
-make clean
-```
-#### c++
-```sh
-cd src/c++
-make
-./main
-./main2
 make clean
 ```
