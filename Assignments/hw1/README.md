@@ -1,7 +1,8 @@
 # Assignment 1
 
-### File structue 
+## Linked List
 
+### File structue 
 ```sh
 .
 ├── README.md
