@@ -1,43 +1,46 @@
-# Assignment 1
+# Assignment 5-1
 
 ### File structue 
 
 ```sh
 .
 ├── README.md
-├── hw1-oop-2020f.pdf
-└── src
-    ├── c
-    │   ├── main.c
-    │   ├── main2.c
-    │   ├── makefile
-    │   ├── stack.c
-    │   └── stack.h
-    └── c++
-        ├── main.cpp
-        ├── main2.cpp
-        ├── makefile
-        ├── stack.cpp
-        └── stack.h
+├── hw5-1
+│   ├── lib
+│   │   ├── Form.cpp
+│   │   └── Form.h
+│   ├── makefile
+│   └── test.cpp
+├── hw5-2
+│   ├── lib
+│   │   ├── Trace.cpp
+│   │   ├── Trace.h
+│   │   ├── Vector.cpp
+│   │   └── Vector.h
+│   ├── makefile
+│   └── test.cpp
+└── hw5-oop-2020f.pdf
 ```
 
 ### Instructions
-[hw1-oop-2020f.pdf](hw1-oop-2020f.pdf)
+[hw5-oop-2020f.pdf](hw5-oop-2020f.pdf)
+
+## 5-1: C++ Manipulator
 
 ### Build and run
-#### c
 ```sh
-cd src/c
+cd src/hw5-1
 make
-./main
-./main2
+./test
 make clean
 ```
-#### c++
+## 5-2: C++ Template
+
+### Build and run
 ```sh
-cd src/c++
+cd src/hw5-2
 make
-./main
-./main2
+./test
 make clean
 ```
+
