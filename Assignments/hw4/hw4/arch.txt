@@ -1,0 +1,36 @@
+            num     <-  token
+type    <-  word    <-    |
+            real    <-    |
+            tag
+
+token {
+    tag
+    to_string()
+}
+
+num {
+    tag
+    value
+    to_string()
+}
+real {
+    tag
+    value
+    to_string()
+}
+word {
+    tag
+    lexeme
+    to_string()
+}
+type {
+    tag
+    lexeme
+    width
+    to_string()
+}
+
+tag: define constants of token
+num: integer
+word: reserved keyword
+real: floating point
