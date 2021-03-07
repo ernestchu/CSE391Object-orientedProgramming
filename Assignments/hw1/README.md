@@ -1,5 +1,11 @@
-<object data="hw1-oop-2020f.pdf" type="application/pdf">
-    <embed src="hw1-oop-2020f.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="hw1-oop-2020f.pdf">Download PDF</a>.</p>
-    </embed>
-</object>
+<div id="adobe-dc-view" style="width: 800px;"></div>
+<script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+<script type="text/javascript">
+	document.addEventListener("adobe_dc_view_sdk.ready", function(){ 
+		var adobeDCView = new AdobeDC.View({clientId: "<YOUR_CLIENT_ID>", divId: "adobe-dc-view"});
+		adobeDCView.previewFile({
+			content:{location: {url: "https://documentcloud.adobe.com/view-sdk-demo/PDFs/Bodea Brochure.pdf"}},
+			metaData:{fileName: "Bodea Brochure.pdf"}
+		}, {embedMode: "IN_LINE"});
+	});
+</script>
