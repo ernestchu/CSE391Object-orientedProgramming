@@ -1,17 +1,43 @@
-<div id="adobe-dc-view" style="width: 800px;"></div>
+# Assignment 1
 
-<script src="https://documentcloud.adobe.com/view-sdk/main.js">
+### File structue 
 
-</script>
+```sh
+.
+├── README.md
+├── hw1-oop-2020f.pdf
+└── src
+    ├── c
+    │   ├── main.c
+    │   ├── main2.c
+    │   ├── makefile
+    │   ├── stack.c
+    │   └── stack.h
+    └── c++
+        ├── main.cpp
+        ├── main2.cpp
+        ├── makefile
+        ├── stack.cpp
+        └── stack.h
+```
 
-<script type="text/javascript">
+### Instructions
+[hw1-oop-2020f.pdf](hw1-oop-2020f.pdf)
 
-    document.addEventListener("adobe_dc_view_sdk.ready", function(){ 
-		var adobeDCView = new AdobeDC.View({clientId: "<YOUR_CLIENT_ID>", divId: "adobe-dc-view"});
-		adobeDCView.previewFile({
-			content:{location: {url: "https://documentcloud.adobe.com/view-sdk-demo/PDFs/Bodea Brochure.pdf"}},
-			metaData:{fileName: "Bodea Brochure.pdf"}
-		}, {embedMode: "IN_LINE"});
-    });
-
-</script>
+### Build and run
+#### c
+```sh
+cd src/c
+make
+./main
+./main2
+make clean
+```
+#### c++
+```sh
+cd src/c++
+make
+./main
+./main2
+make clean
+```
