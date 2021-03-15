@@ -1,4 +1,4 @@
-# CSE391: Object-oriented Programming
+# CSE391 Object-oriented Programming
 #### Fall 2020
 #### National Sun Yat-sen University
 
